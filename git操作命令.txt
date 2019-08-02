@@ -1,0 +1,197 @@
+﻿git安装下载：（略）
+git的使用操作？
+git是分布式版本控制系统、所以需要“邮箱”和“用户名”作为一个标识
+设置“邮箱”和“用户名”的全局变量
+$ git  config  --global  user.name  "heshichao"
+
+$ git  config  --global  user.email  "463494980@qq.com"
+
+经常会遇到git中文乱码的问题、这种情况下也要设置一个全局变量解决中文乱码问题
+
+$ git  config  --global  core.quotepath  false
+
+全局变量config文件都在隐藏文件.git下， 输入的命令生成的文件也会保存在config下。
+
+另外一种乱码的问题、记事本内容乱码、或者是GitHub乱码
+这是因为记事本默认的编码格式和git的编码格式不一样，这个很好解决，在保存文件的时候选择另存为，将下方
+的保存格式改为“UTF-8”就可以了
+
+1、创建版本库
+版本库又名仓库，这个仓库里面的所有文件都可以被Git管理起来、每个文件的修改，删除Git都可以追踪。
+例如：在D盘 -> mytest下创建一个testgit版本库
+$ cd  D:
+
+$ cd  mytest
+
+$ mkdir  testgit             #创建版本库
+
+$ pwd
+/d/mytest/testgit           #查看一下当前的目录路径
+
+2、通过git init命令把我们创建的目录变成git可以管理的仓库
+
+$ git  init
+Initialized  empty  Git  repository  in  d:/mytest/testgit/.git/
+这个时候testgit目录下会多了一个 .git 的目录，这个目录是隐藏的，如要查看可设置显示隐藏文件；
+这个目录是Git来跟踪管理版本的，不可动里面的东西，否则后果自负。。
+
+3、在版本库里testgit目录下新建一个记事本文件 “mytest.txt”内容为“this is my git-1”
+第一步：使用命令“git  add  mytest.txt”添加到暂缓区里面去。
+$ git  add  mytest.txt
+
+第二步：使用命令“git  commit告诉Git”，把文件提交到仓库
+$ git  commit  -m  "这是第一次提交" -->引号内是提交的注释、方便知道更改的内容
+
+完成
+
+可以通过命令git  status来查看是否还有文件未提交
+
+$ git  status
+on  branch  master
+nothing  to  commit,  working  directory  clean                 #没有未提交的文件
+
+$ git  status
+on  branch  master
+changes  not  staged  for  commit:
+........................modified:   xxxx文件
+no  changes  added  to  commit(use “git  add” and/or  "git  commit  -a")            #表示还有未提交的
+
+如果想查看一下"mytest.txt"文件到底修改了什么内容？可以使用如下命令：
+
+$ git  diff  mytest.txt
+
+版本回退：
+
+查看修改更新的历史记录？git  log
+
+$ git  log
+显示每次提交的版本号
+提交的注释内容
+git  log命令显示从最近到最远的显示日志
+如果想简介的看日志，不要那么多花里胡哨的东西可以使用命令 git  log  --pretty=oneline
+$ git  log  --pretty=oneline
+
+版本回退：
+我想把当前的版本回退到上一个版本命令：
+第一种： git  reset  --hard  HEAD^
+如若想回退到上上个版本呢？ 改成 HEAD^^以此类推
+第二种：假如我想回归到100个版本呢？ 使用上面的方法肯定不显示，可以使用如下命令：
+$ git  reset  --hard  HEAD~100
+
+接上，假如我又想回到回退之前的新版本呢？如何操作？
+可以使用  git  reset  --hard  版本号
+但是问题来了，，我如何知道新版本的版本号呢？？使用如下命令：
+$ git  reflog
+文件头部就是版本号
+再使用命令回退到新版本： git  reset  --hard  版本号
+
+理解工作区和暂缓区
+
+工作区：就是你在电脑上看到的目录，比如目录下testgit里的文件(.git隐藏目录版本库除外)比如："mytest.txt"
+或者以后需要再新建的目录文件等等都属于工作区范畴。
+
+版本库(Repository)：工作区有一个隐藏目录 ".git" ,这个不属于工作区，这是版本库。其中版本库里面存了很多东西，
+其中最重要的就是stage(暂存区)，还有Git为我们自动创建了第一个分支master,以及指向master的一个指针HEAD。
+
+我们前面说过使用Git提交文件到版本库有两步：
+
+第一步：是使用 git add 把文件添加进去，实际上就是把文件添加到暂存区。
+
+第二步：使用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支上。
+
+git checkout  -- file 可以丢弃工作区的修改
+
+命令 git checkout --mytest.txt 意思就是，把mytest.txt文件在工作区做的修改全部撤销，这里有2种情况，如下：
+
+1、mytest.txt自动修改后，还没有放到暂存区，使用 撤销修改就回到和版本库一模一样的状态。
+2、另外一种是mytest.txt已经放入暂存区了，接着又作了修改，撤销修改就回到添加暂存区后的状态
+
+举个例子说明第二种情况：
+$ cat  mytest.txt
+111111
+222222
+333333
+
+$ git  add  mytest.txt                 #假如暂缓区中
+
+修改mytest.txt文件，增加444444
+$cat  mytest.txt                                        #但是并未提交到暂缓区
+111111
+222222
+333333
+444444
+
+使用撤销命令：
+$ git  checkout  --mytest.txt              #使用撤销命令，把未添加到暂缓区的内容全部干掉
+$ cat  mytest.txt
+111111
+222222
+333333                                                #发现444444已经被干掉了
+
+删除文件
+
+我要删除版本库里面的 LOVE.txt文件
+$ rm  LOVE.txt
+再执行commit命令
+
+只要没有commit之前，如果我想在版本库中恢复此文件如何操作呢？
+可以使用如下命令 git checkout  -- b.txt
+$ git  checkout  --  LOVE.txt                         #回复LOVE.txt文件
+再commit提交
+
+远程仓库
+登录github，账号密码自己注册
+
+第一步：创建SSH Key
+命令：
+$ ssh-keygen  -t rsa –C “463494980@qq.com”
+
+路径：c:/user/admin/.ssh
+id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人
+
+第二步：
+登录github,打开” settings”中的SSH Keys页面，然后点击“Add SSH Key”,填上任意title，
+在Key文本框里黏贴id_rsa.pub文件的内容
+
+添加远程库
+
+首先，登录github上，然后在右上角找到“create a new repo”创建一个新的仓库
+填写仓库名“myhub”，其他默认，点击创建即可
+
+然后通过命令将本地仓库与远程仓库进行关联，就可以把本地仓库的内容推送到GitHub仓库。
+
+在本地仓库运行命令关联远程仓库
+$ git  remote  add  origin  https://github.com/heshichao0415/myhub.git
+
+使用push命令把本地库的内容推送到远程仓库
+$ git  push  -u  origin  master                           
+#由于远程库是空的，我们第一次推送master分支时，加上了 –u参数，
+Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，
+在以后的推送或者拉取时就可以简化命令 git  push  origin  master （都需要输入github的账号密码）
+
+远程库内容拉到本地库？？
+$  git  clone  https://github.com/heshichao0415/myhub
+
+创建与合并分支
+
+创建dev分支，然后切换到该dev分支
+$ git  checkout  -b  dev
+
+查看当前分支
+$ git  branch
+
+git checkout 命令加上 –b参数表示创建并切换，相当于如下2条命令
+
+git branch dev          #创建dev分支
+
+git checkout dev       #切换到dev分支
+ 
+git branch查看分支，会列出所有的分支，当前分支前面会添加一个星号
+
+合并分支
+把dev分支上的内容合并到分支master上了，可以在master分支上，使用如下命令 git merge dev（在master分支上使用命令）
+$ git  merge  dev
+
+
+
+
