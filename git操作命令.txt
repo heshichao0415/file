@@ -169,6 +169,9 @@ $ git  push  -u  origin  master
 Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，
 在以后的推送或者拉取时就可以简化命令 git  push  origin  master （都需要输入github的账号密码）
 
+撤销关联？
+$ git  remote  remove  origin
+
 远程库内容拉到本地库？？
 $  git  clone  https://github.com/heshichao0415/myhub
 
