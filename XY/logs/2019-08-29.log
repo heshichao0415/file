@@ -1,0 +1,388 @@
+时间:2019-08-29 14:23:32,692 级别:DEBUG 消息：now_time:2019-08-29 14:23:32
+时间:2019-08-29 14:23:32,927 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 14:23:32,928 级别:INFO 消息：添加线程
+时间:2019-08-29 14:23:32,939 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 14:23:32,939 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 14:23:32,940 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 14:23:32,940 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 14:23:33,328 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567059868, 'once': 'oDApuc'}
+时间:2019-08-29 14:23:33,328 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 14:23:33,329 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567059868, 'once': 'hfT8U9'}
+时间:2019-08-29 14:23:33,329 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567059868, 'once': 'FiMhpa'}
+时间:2019-08-29 14:23:33,329 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 14:23:33,330 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 14:23:33,335 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': '', 'openID2': '', 'devType': '', 'sn': '', 'mac': '', 'deviceName': '', 'deviceBrand': '', 'devSwVer': '', 'devConType': '', 'accHistoryNum': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567059868, 'once': 'nap0r1'}
+时间:2019-08-29 14:23:33,335 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 14:23:33,336 级别:INFO 消息：主进行0结束
+时间:2019-08-29 14:23:33,337 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 14:23:33,337 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 14:23:33,337 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 14:23:33,337 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 14:23:33,337 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 14:23:33,337 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 15:03:10,848 级别:DEBUG 消息：Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567062246, 'once': 'k79Tge'}
+时间:2019-08-29 15:03:10,848 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 15:54:51,334 级别:DEBUG 消息：now_time:2019-08-29 15:54:51
+时间:2019-08-29 15:54:51,497 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 15:54:51,498 级别:INFO 消息：添加线程
+时间:2019-08-29 15:54:51,509 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 15:54:51,509 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 15:54:51,510 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 15:54:51,517 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 15:54:51,813 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065347, 'once': 'ziDtx1'}
+时间:2019-08-29 15:54:51,814 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 15:54:51,815 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065347, 'once': 'CPRDQb'}
+时间:2019-08-29 15:54:51,815 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 15:54:51,815 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065347, 'once': '21RHSs'}
+时间:2019-08-29 15:54:51,816 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 15:54:51,828 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065347, 'once': 'HTmjxb'}
+时间:2019-08-29 15:54:51,828 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 15:54:51,829 级别:INFO 消息：主进行0结束
+时间:2019-08-29 15:54:51,830 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 15:54:51,830 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 15:54:51,830 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 15:54:51,830 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 15:54:51,830 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 15:54:51,830 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 15:56:01,997 级别:DEBUG 消息：now_time:2019-08-29 15:56:01
+时间:2019-08-29 15:56:02,156 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 15:56:02,157 级别:INFO 消息：添加线程
+时间:2019-08-29 15:56:02,168 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 15:56:02,168 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 15:56:02,169 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 15:56:02,170 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 15:56:02,473 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065417, 'once': 'pSEDd6'}
+时间:2019-08-29 15:56:02,473 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 15:56:02,490 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065417, 'once': 'cDL4g9'}
+时间:2019-08-29 15:56:02,490 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 15:56:02,492 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065417, 'once': 'hPuUvK'}
+时间:2019-08-29 15:56:02,492 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 15:56:02,492 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065417, 'once': 'REFpiH'}
+时间:2019-08-29 15:56:02,493 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 15:56:02,496 级别:INFO 消息：主进行0结束
+时间:2019-08-29 15:56:02,497 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 15:56:02,497 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 15:56:02,497 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 15:56:02,497 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 15:56:02,497 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 15:56:02,497 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 15:56:02,497 级别:DEBUG 消息：name 'all_times' is not defined
+时间:2019-08-29 15:56:02,498 级别:DEBUG 消息：name 'all_times' is not defined
+时间:2019-08-29 15:56:02,498 级别:DEBUG 消息：name 'all_times' is not defined
+时间:2019-08-29 15:56:27,370 级别:DEBUG 消息：now_time:2019-08-29 15:56:27
+时间:2019-08-29 15:56:27,561 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 15:56:27,562 级别:INFO 消息：添加线程
+时间:2019-08-29 15:56:27,577 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 15:56:27,578 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 15:56:27,579 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 15:56:27,579 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 15:56:27,827 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065443, 'once': '97jaBj'}
+时间:2019-08-29 15:56:27,827 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 15:56:27,829 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065443, 'once': '8InqDJ'}
+时间:2019-08-29 15:56:27,829 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 15:56:27,841 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065443, 'once': 'HSbfAR'}
+时间:2019-08-29 15:56:27,841 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 15:56:27,843 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065443, 'once': 'SLf3ZM'}
+时间:2019-08-29 15:56:27,844 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 15:56:27,844 级别:INFO 消息：主进行0结束
+时间:2019-08-29 15:56:27,845 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 15:56:27,845 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 15:56:27,845 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 15:56:27,845 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 15:56:27,845 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 15:56:27,846 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 15:57:36,393 级别:DEBUG 消息：now_time:2019-08-29 15:57:36
+时间:2019-08-29 15:57:36,556 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 15:57:36,557 级别:INFO 消息：添加线程
+时间:2019-08-29 15:57:36,567 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 15:57:36,568 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 15:57:36,568 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 15:57:36,569 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 15:57:36,834 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065512, 'once': 'wU3V4l'}
+时间:2019-08-29 15:57:36,834 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065512, 'once': 'ibreVz'}
+时间:2019-08-29 15:57:36,834 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065512, 'once': 'v89490'}
+时间:2019-08-29 15:57:36,834 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 15:57:36,834 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 15:57:36,835 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 15:57:36,850 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065512, 'once': 'EZ53Td'}
+时间:2019-08-29 15:57:36,850 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 15:57:36,851 级别:INFO 消息：主进行0结束
+时间:2019-08-29 15:57:36,851 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 15:57:36,852 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 15:57:36,852 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 15:57:36,852 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 15:57:36,852 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 15:57:36,852 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 15:58:33,289 级别:DEBUG 消息：now_time:2019-08-29 15:58:33
+时间:2019-08-29 15:58:33,454 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 15:58:33,454 级别:INFO 消息：添加线程
+时间:2019-08-29 15:58:33,466 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 15:58:33,466 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 15:58:33,467 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 15:58:33,467 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 15:58:33,717 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065569, 'once': 't3gxq9'}
+时间:2019-08-29 15:58:33,718 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065569, 'once': 'Jdvm5r'}
+时间:2019-08-29 15:58:33,718 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 15:58:33,718 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 15:58:33,720 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065569, 'once': 'q7T8Dv'}
+时间:2019-08-29 15:58:33,721 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 15:58:33,733 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065569, 'once': 'IH7X5n'}
+时间:2019-08-29 15:58:33,734 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 15:58:33,734 级别:INFO 消息：主进行0结束
+时间:2019-08-29 15:58:33,735 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 15:58:33,735 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 15:58:33,735 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 15:58:33,735 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 15:58:33,735 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 15:58:33,736 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:00:15,137 级别:DEBUG 消息：now_time:2019-08-29 16:00:15
+时间:2019-08-29 16:00:15,304 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:00:15,304 级别:INFO 消息：添加线程
+时间:2019-08-29 16:00:15,315 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:00:15,316 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:00:15,322 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:00:15,331 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:00:15,575 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065670, 'once': 'XZUmMT'}
+时间:2019-08-29 16:00:15,575 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:00:18,564 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065673, 'once': 'lXc4f2'}
+时间:2019-08-29 16:00:18,564 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:00:18,576 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065673, 'once': 'qlnl7L'}
+时间:2019-08-29 16:00:18,576 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:00:18,578 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567065673, 'once': 'rHmkD7'}
+时间:2019-08-29 16:00:18,578 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:00:18,579 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:00:18,579 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:00:18,580 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:00:18,580 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:00:18,584 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:00:18,585 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:00:18,585 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:15:33,714 级别:DEBUG 消息：now_time:2019-08-29 16:15:33
+时间:2019-08-29 16:15:33,883 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:15:33,883 级别:INFO 消息：添加线程
+时间:2019-08-29 16:15:33,893 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:15:33,894 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:15:33,894 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:15:33,901 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:15:34,184 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066589, 'once': 'poeAjq'}
+时间:2019-08-29 16:15:34,184 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066589, 'once': 'Qq9KHz'}
+时间:2019-08-29 16:15:34,185 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:15:34,185 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:15:34,186 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066589, 'once': 'UR0Uu0'}
+时间:2019-08-29 16:15:34,186 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:15:34,199 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066589, 'once': 'W0JD7w'}
+时间:2019-08-29 16:15:34,200 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:15:34,201 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:15:34,201 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:15:34,202 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:15:34,202 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:15:34,202 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:15:34,202 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:15:34,203 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:20:24,988 级别:DEBUG 消息：now_time:2019-08-29 16:20:24
+时间:2019-08-29 16:20:25,178 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:20:25,179 级别:INFO 消息：添加线程
+时间:2019-08-29 16:20:25,190 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:20:25,190 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:20:25,190 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:20:25,191 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:20:25,484 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066880, 'once': 'pgbsW6'}
+时间:2019-08-29 16:20:25,484 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:20:25,485 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066880, 'once': 'TDZzOd'}
+时间:2019-08-29 16:20:25,486 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066880, 'once': '3IIM3g'}
+时间:2019-08-29 16:20:25,486 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:20:25,486 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:20:25,502 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066880, 'once': 'tdi4lW'}
+时间:2019-08-29 16:20:25,503 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:20:25,503 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:20:25,504 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:20:25,504 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:20:25,504 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:20:25,505 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:20:25,505 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:20:25,505 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:22:03,624 级别:DEBUG 消息：now_time:2019-08-29 16:22:03
+时间:2019-08-29 16:22:03,790 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:22:03,791 级别:INFO 消息：添加线程
+时间:2019-08-29 16:22:03,801 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:22:03,801 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:22:03,802 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:22:03,803 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:22:04,080 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066979, 'once': 'UguxRf'}
+时间:2019-08-29 16:22:04,081 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:22:04,081 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066979, 'once': '9k3MVH'}
+时间:2019-08-29 16:22:04,081 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:22:04,084 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066979, 'once': 'ipFWDb'}
+时间:2019-08-29 16:22:04,084 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:22:04,096 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567066979, 'once': 'YWVx4x'}
+时间:2019-08-29 16:22:04,096 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:22:04,097 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:22:04,098 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:22:04,098 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:22:04,098 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:22:04,098 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:22:04,098 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:22:04,098 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:22:27,625 级别:DEBUG 消息：now_time:2019-08-29 16:22:27
+时间:2019-08-29 16:22:27,793 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:22:27,793 级别:INFO 消息：添加线程
+时间:2019-08-29 16:22:27,804 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:22:27,805 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:22:27,805 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:22:27,806 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:22:28,050 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067003, 'once': 'srO1v3'}
+时间:2019-08-29 16:22:28,050 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067003, 'once': 'C8B3d7'}
+时间:2019-08-29 16:22:28,050 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:22:28,050 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:22:28,063 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067003, 'once': 'zks9Ph'}
+时间:2019-08-29 16:22:28,063 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:22:28,080 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067003, 'once': 'q6Dlfc'}
+时间:2019-08-29 16:22:28,081 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:22:28,081 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:22:28,082 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:22:28,082 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:22:28,082 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:22:28,082 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:22:28,083 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:22:28,083 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:23:02,759 级别:DEBUG 消息：now_time:2019-08-29 16:23:02
+时间:2019-08-29 16:23:02,941 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:23:02,941 级别:INFO 消息：添加线程
+时间:2019-08-29 16:23:02,954 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:23:02,954 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:23:02,955 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:23:02,956 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:23:03,236 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067038, 'once': 'QSu1E5'}
+时间:2019-08-29 16:23:03,236 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:23:03,242 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067038, 'once': 'wMxvLN'}
+时间:2019-08-29 16:23:03,242 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:23:03,243 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067038, 'once': 'dUrWwP'}
+时间:2019-08-29 16:23:03,243 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:23:03,251 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067038, 'once': 'J3Aw0P'}
+时间:2019-08-29 16:23:03,252 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:23:03,252 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:23:03,253 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:23:03,253 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:23:03,253 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:23:03,253 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:23:03,254 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:23:03,254 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:23:50,558 级别:DEBUG 消息：now_time:2019-08-29 16:23:50
+时间:2019-08-29 16:23:50,738 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:23:50,738 级别:INFO 消息：添加线程
+时间:2019-08-29 16:23:50,749 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:23:50,749 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:23:50,750 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:23:50,750 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:23:50,999 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067086, 'once': 'ptc6On'}
+时间:2019-08-29 16:23:51,000 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:23:51,002 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067086, 'once': 'rRFJwZ'}
+时间:2019-08-29 16:23:51,002 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:23:51,002 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067086, 'once': 'nnj4Gz'}
+时间:2019-08-29 16:23:51,003 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:23:51,017 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067086, 'once': 'BtPKMM'}
+时间:2019-08-29 16:23:51,017 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:23:51,018 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:23:51,019 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:23:51,019 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:23:51,019 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:23:51,019 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:23:51,019 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:23:51,019 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:27:06,634 级别:DEBUG 消息：now_time:2019-08-29 16:27:06
+时间:2019-08-29 16:27:06,797 级别:INFO 消息：测试集为空
+时间:2019-08-29 16:32:21,151 级别:DEBUG 消息：now_time:2019-08-29 16:32:21
+时间:2019-08-29 16:32:21,320 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:32:21,321 级别:INFO 消息：添加线程
+时间:2019-08-29 16:32:21,332 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:32:21,332 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:32:21,333 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:32:21,334 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:32:21,634 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067597, 'once': 'lU4fHy'}
+时间:2019-08-29 16:32:21,634 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067597, 'once': 'NjTyiN'}
+时间:2019-08-29 16:32:21,634 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067597, 'once': 'yl0l1Q'}
+时间:2019-08-29 16:32:21,634 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:32:21,634 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:32:21,634 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:32:21,647 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067597, 'once': 'BT07NY'}
+时间:2019-08-29 16:32:21,647 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:32:21,648 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:32:21,649 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:32:21,649 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:32:21,649 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:32:21,649 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:32:21,649 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:32:21,649 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 16:34:08,946 级别:DEBUG 消息：now_time:2019-08-29 16:34:08
+时间:2019-08-29 16:34:09,115 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 16:34:09,116 级别:INFO 消息：添加线程
+时间:2019-08-29 16:34:09,127 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 16:34:09,127 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 16:34:09,128 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 16:34:09,128 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 16:34:09,405 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067704, 'once': 'gYzlUr'}
+时间:2019-08-29 16:34:09,405 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 16:34:09,409 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067704, 'once': 'tt1GEH'}
+时间:2019-08-29 16:34:09,409 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 16:34:09,414 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067704, 'once': 'GcKhiJ'}
+时间:2019-08-29 16:34:09,414 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 16:34:09,422 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567067704, 'once': '84OVMm'}
+时间:2019-08-29 16:34:09,422 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 16:34:09,423 级别:INFO 消息：主进行0结束
+时间:2019-08-29 16:34:09,424 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 16:34:09,424 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 16:34:09,424 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 16:34:09,425 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 16:34:09,425 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 16:34:09,425 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 17:49:16,782 级别:DEBUG 消息：now_time:2019-08-29 17:49:16
+时间:2019-08-29 17:49:16,957 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 17:49:16,958 级别:INFO 消息：添加线程
+时间:2019-08-29 17:49:16,970 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 17:49:16,971 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 17:49:16,972 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 17:49:16,972 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 17:49:17,368 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072212, 'once': 'Q7jRdd'}
+时间:2019-08-29 17:49:17,368 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 17:49:17,370 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072212, 'once': 'EqDnpS'}
+时间:2019-08-29 17:49:17,370 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 17:49:17,371 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072212, 'once': 'oa8kkB'}
+时间:2019-08-29 17:49:17,371 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 17:49:17,381 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072212, 'once': 'Tk1hyq'}
+时间:2019-08-29 17:49:17,381 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 17:49:17,382 级别:INFO 消息：主进行0结束
+时间:2019-08-29 17:49:17,382 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 17:49:17,383 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 17:49:17,383 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 17:49:17,383 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 17:49:17,383 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 17:49:17,383 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 17:54:07,427 级别:DEBUG 消息：now_time:2019-08-29 17:54:07
+时间:2019-08-29 17:54:07,429 级别:INFO 消息：共计1个测试类
+时间:2019-08-29 17:54:07,429 级别:INFO 消息：添加线程
+时间:2019-08-29 17:54:07,439 级别:INFO 消息：主进行0结束
+时间:2019-08-29 17:54:07,439 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 17:54:07,440 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 17:55:22,733 级别:DEBUG 消息：now_time:2019-08-29 17:55:22
+时间:2019-08-29 17:55:22,898 级别:INFO 消息：共计4个测试类
+时间:2019-08-29 17:55:22,899 级别:INFO 消息：添加线程
+时间:2019-08-29 17:55:22,909 级别:INFO 消息：开启线程:Thread-0
+时间:2019-08-29 17:55:22,910 级别:INFO 消息：开启线程:Thread-1
+时间:2019-08-29 17:55:22,910 级别:INFO 消息：开启线程:Thread-2
+时间:2019-08-29 17:55:22,911 级别:INFO 消息：开启线程:Thread-3
+时间:2019-08-29 17:55:23,158 级别:DEBUG 消息：case.auth.GetRouteList_st->GetRouteList_auth->test_auth_GetRouteList: 传参：{'userid': '', 'gameId': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072578, 'once': 'vTnIfK'}
+时间:2019-08-29 17:55:23,159 级别:DEBUG 消息：获取游戏路由表接口 验证完毕
+时间:2019-08-29 17:55:23,161 级别:DEBUG 消息：case.auth.GetGameList_st->GetGameList_auth->test_auth_GetGameList: 传参：{'openID1': '', 'openID2': '', 'top': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072578, 'once': 'wqRvP3'}
+时间:2019-08-29 17:55:23,161 级别:DEBUG 消息：case.auth.GetNodeList_st->GetNodeList_auth->test_auth_GetNodeList: 传参：{'userid': '', 'gameId': '', 'isp2p': '', 'fouter': '', 'time': '', 'sign': ''} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072578, 'once': 'Do2iHf'}
+时间:2019-08-29 17:55:23,161 级别:DEBUG 消息：获取游戏列表接口 验证完毕
+时间:2019-08-29 17:55:23,161 级别:DEBUG 消息：获取节点列表 验证完毕
+时间:2019-08-29 17:55:23,175 级别:DEBUG 消息：case.auth.Login_st->Login_auth->test_auth_Login: 传参：{'openID1': 'ljabcd12312543234231666', 'openID2': 'ljeiouweirndkfjafd21666', 'devType': '2', 'sn': 'ljsn012345678000', 'mac': '00:0c:29:16:06:91', 'deviceName': '华为', 'deviceBrand': '荣耀', 'devSwVer': 'v0.2.5', 'devConType': '1', 'accHistoryNum': '10', 'time': '156897156', 'sign': 'abcdesa312e1'} 返回结果：{'code': 404, 'message': '访问资源URI不存在', 'timestamp': 1567072578, 'once': 'dEHKYO'}
+时间:2019-08-29 17:55:23,175 级别:DEBUG 消息：用户登录授权 验证完毕
+时间:2019-08-29 17:55:23,176 级别:INFO 消息：主进行0结束
+时间:2019-08-29 17:55:23,176 级别:INFO 消息：共计0个测试类
+时间:2019-08-29 17:55:23,177 级别:INFO 消息：所有主进程结束！
+时间:2019-08-29 17:55:23,177 级别:INFO 消息：Thread-2线程结束！
+时间:2019-08-29 17:55:23,177 级别:INFO 消息：Thread-1线程结束！
+时间:2019-08-29 17:55:23,177 级别:INFO 消息：Thread-0线程结束！
+时间:2019-08-29 17:55:23,177 级别:INFO 消息：Thread-3线程结束！
+时间:2019-08-29 18:00:11,399 级别:DEBUG 消息：now_time:2019-08-29 18:00:11
